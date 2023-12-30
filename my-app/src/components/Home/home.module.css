@@ -1,0 +1,61 @@
+.Home_grand{
+    padding-top: 4em;
+}
+.Home_parent {
+  
+    display: flex;
+    align-items: flex-end; /* 'end' might not be a valid value for align-items */
+    height: 80vh;
+    width: 100vw;
+
+    background-image: url('https://konstructly.com/images/home_background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+   
+
+}
+.Home_body{
+    position: absolute;
+    z-index: 999;
+    width: 80%;
+    left: 6em;
+    margin-bottom: 1em;
+}
+.gradient{
+    position: absolute;
+    
+    z-index: 1;
+    height: 85vh;
+    width: 100vw;
+    background: rgb(200,200,200);
+background: linear-gradient(180deg, rgba(200,200,200,0) 57%, rgba(255,193,147,1) 100%);
+}
+.Feature_Head{
+    font-size: 2.125rem;
+    font-weight: 700;
+    
+}
+.button_Set{
+    display: flex;
+    gap: 2em;
+    margin-top: 1em ;
+}
+.feature_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #29013e!important;
+    color: white;
+    width: 22%;
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+.Feature_SubHead{
+    color: rgb(85, 85, 85);
+    margin-top: 0.5em;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.9;
+    width: 60%;
+}

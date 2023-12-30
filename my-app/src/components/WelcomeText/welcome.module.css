@@ -1,0 +1,20 @@
+.Welcome_grand{
+    background-color: rgb(246, 245, 245);
+    padding: 2em;
+}
+.Welcome_Parent{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.Welcome_Head{
+    margin-bottom: 0.5em;
+    font-size: 20px;
+}
+.Welcome_Head p{
+    display: inline;
+    color: #fd7028!important;
+} 
+.Welcome_Subhead{
+    font-size: 16px;
+}

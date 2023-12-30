@@ -1,0 +1,189 @@
+.navbarGrand{
+ position: fixed;
+ width: 100%;
+ background-color: rgba(0, 0, 0, 0.9);
+ backdrop-filter: saturate(1) blur(20px)!important;
+ z-index: 99999;
+}
+.navbarParent {
+  display: flex;
+  padding-bottom: 1em;
+  justify-content: space-between;
+  width: 83%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 1em;
+  align-items: center;
+  margin-right: 3em;
+}
+.navitems {
+  display: flex;
+  gap: 8em;
+  color: white;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 0.5em ;
+}
+.BrandHead {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  
+}
+.Getstarted {
+  border-radius: 20px;
+  background: #0075ff;
+  width: 124px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  margin-top: -0.5em;
+}
+.item1:hover{
+  color: white;
+  cursor: pointer;
+}
+.item2:hover{
+  color: white;
+  cursor: pointer;
+}
+.item3:hover{
+  color: white;
+  cursor: pointer;
+}
+.item4:hover{
+  color: white;
+  cursor: pointer;
+}
+.Getstarted:hover{
+  opacity: 0.8;
+}
+/* Existing styles remain unchanged */
+
+@media only screen and (max-width: 768px) {
+  
+  .BrandHead img{
+    width: 90px;
+  }
+ 
+
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .Getstarted {
+    font-size: 1.5em; /* Increase the text size */
+  }
+
+  
+ 
+
+  .mobileMenuItems {
+    /* ... */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add some gap between menu items */
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4 {
+    font-size: 1.5em; /* Increase the text size */
+  }
+  
+  .Getstarted{
+    font-size: 1em;
+    margin-bottom: 50em;
+  }
+
+  .closeButton {
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #fff;
+    
+  }
+  .mobileMenu {
+    /* ... */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within the items */
+  }
+
+  .mobileMenuHeader {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+
+  .closeButton {
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #fff;
+    margin-left: auto; /* Move the close button to the right */
+  }
+
+
+  .mobileMenuItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+  }
+
+  .navitems {
+    display: none; /* Hide the navigation items by default on small screens */
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.7);
+    width: 100%;
+    padding: 1em;
+    z-index: 999;
+  }
+
+  .navitems.show {
+    display: flex; /* Show the navigation items when the 'show' class is added */
+  }
+
+  .hamburger div {
+    width: 25px;
+    height: 4px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: none; /* Remove the transition for instant toggle */
+  }
+
+  .crossLine1 {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .crossLine2 {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  .hamburger div {
+    width: 25px; /* Adjust the width of each line in the hamburger */
+    height: 3px;
+    background-color: #fff;
+    margin: 2px 0; /* Adjust the margin between lines in the hamburger */
+    transition: 0.4s;
+  }
+
+  .navbarParent {
+    position: relative;
+  }
+}

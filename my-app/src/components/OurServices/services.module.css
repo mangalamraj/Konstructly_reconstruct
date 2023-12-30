@@ -1,0 +1,32 @@
+.Services_parent{
+    width: 87%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4em;
+}
+.Head{
+    font-size: 36px;
+}
+.SubHead{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 0.7em;
+    margin-bottom:5em;
+}
+.SubHead{
+    color: rgb(118, 118, 118);
+}
+.Services_set{
+    display: flex;
+}
+.child_head{
+    font-size: 20px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.child_subHead{
+    color: rgb(118, 118, 118);
+    font-size: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
