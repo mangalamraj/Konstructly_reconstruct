@@ -1,0 +1,21 @@
+.GalleryAd_Parent{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+    display: flex;
+}
+.GalleryAd_head{
+    font-size: 25px;
+    font-weight: 500;
+}
+.GalleryAd_SubHead{
+    font-size: 20px;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.Gallery_link{
+    font-size: 16px;
+}
+.rightSide_Gallery{
+    display: flex;
+}
