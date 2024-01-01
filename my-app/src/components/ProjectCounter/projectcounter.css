@@ -8,7 +8,7 @@
   }
 
   .Counter_parent{
-        padding: 3em;
+        padding: 5em;
   }
   .Counter_Head{
     display: flex;
@@ -18,7 +18,7 @@
     margin-bottom: 0.3em;
   }
   .Counter_Subhead{
-    margin-bottom: 2em;
+    margin-bottom: 4em;
     color: rgb(118, 118, 118);
     display: flex;
     justify-content:center;

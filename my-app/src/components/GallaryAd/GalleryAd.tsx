@@ -1,6 +1,12 @@
+"use client"
 import styles from "./galleryad.module.css"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 const GalleryAd = () =>{
+    useEffect(()=>{
+        AOS.init();
+    },[])
     return(
         <div className={styles.GalleryAd_Grand}>
             <div className={styles.GalleryAd_Parent}>
