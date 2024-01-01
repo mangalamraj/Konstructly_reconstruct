@@ -21,16 +21,17 @@ const Navbar = () => {
     <div className={styles.navbarGrand}>
       <div className={styles.navbarParent}>
         <div className={styles.BrandHead}>
-          <img src="https://konstructly.com/images/logo.svg" alt="" width="110px" />
+          <img src="https://konstructly.com/images/logo.svg" alt="" width="150px" />
         </div>
         <div className={styles.navitems}>
-          <div className={styles.item1}>Home</div>
-          <div className={styles.item2}>Feature</div>
-          <div className={styles.item3}>Pricing</div>
-          <div className={styles.item4}>About</div>
+          <div className={styles.item1}>Product</div>
+          <div className={styles.item2}>About</div>
+          <div className={styles.item3}>Career</div>
+          <div className={styles.item4}>Contact</div>
           <div className={styles.Getstarted} onClick={handleContactClick}>
-            Contact Us
+            Login
           </div>
+          
         </div>
         <div className={styles.lightdarkndButton}>
           <div className={`${styles.hamburger} ${showMenu ? styles.cross : ''}`} onClick={toggleMenu}>
@@ -48,19 +49,19 @@ const Navbar = () => {
           <div className={styles.mobileMenuHeader}></div>
           <div className={styles.mobileMenuItems}>
             <div className={styles.item1} onClick={handleContactClick}>
-              Home
+              Product
             </div>
             <div className={styles.item2} onClick={handleContactClick}>
-              Feature
-            </div>
-            <div className={styles.item3} onClick={handleContactClick}>
-              Pricing
-            </div>
-            <div className={styles.item4} onClick={handleContactClick}>
               About
             </div>
+            <div className={styles.item3} onClick={handleContactClick}>
+              Career
+            </div>
+            <div className={styles.item4} onClick={handleContactClick}>
+              Contact
+            </div>
             <div className={styles.Getstarted} onClick={handleContactClick}>
-              Contact Us
+              Login
             </div>
           </div>
         </div>

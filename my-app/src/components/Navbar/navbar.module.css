@@ -7,12 +7,12 @@
 }
 .navbarParent {
   display: flex;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
   justify-content: space-between;
-  width: 83%;
+  width: 86%;
   max-width: 1440px;
   margin: 0 auto;
-  padding-top: 1em;
+  padding-top: 1.5em;
   align-items: center;
   margin-right: 3em;
 }
@@ -37,14 +37,14 @@
   
 }
 .Getstarted {
-  border-radius: 20px;
-  background: #0075ff;
+  border-radius: 5px;
+  background: white;
   width: 124px;
   height: 34px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
   cursor: pointer;
   margin-top: -0.5em;
 }

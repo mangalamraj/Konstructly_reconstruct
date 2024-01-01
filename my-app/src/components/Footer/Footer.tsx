@@ -97,15 +97,18 @@ const Footer = () => {
             <div className="col_sub3">
               <div className="link-row">
                 <div className="footer-header_sub">
-                  <h3>Ipsum Lorem</h3>
+                  <h3>Downloads & Tools</h3>
                 </div>
 
                 <div className="link-des">
                   <a href="#" className="footer-links">
-                  Lorem Ipsum
+                  Brochure
                   </a>
                   <a href="#" className="footer-links">
-                  Lorem Ipsum
+                  EMI Calculator
+                  </a>
+                  <a href="#" className="footer-links">
+                  SDR Calculator
                   </a>
                 </div>
               </div>
@@ -132,7 +135,7 @@ const Footer = () => {
 
           <div className="col-12">
             <span className="copyright">
-              ©Copyright 2023-2026 Rove Group. All Rights Reserved
+              ©Copyright 2023-2026 Konstructly Group by Mangalam Raj. All Rights Reserved
             </span>
           </div>
         </div>

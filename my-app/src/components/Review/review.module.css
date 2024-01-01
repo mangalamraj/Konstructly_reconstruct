@@ -1,0 +1,64 @@
+.Review_Parent{
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 4em;
+}
+.Heading_part{
+    text-align: center;
+}
+.Review_Head{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 0.1em;
+    
+}
+.Review_Subhead{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 0.7em;
+    margin-bottom: 5em;
+    color: rgb(118, 118, 118);
+}
+.Review_set{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6em;
+}
+.Review_area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.set1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    gap: 1em;
+}
+.set2{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 1em;
+}
+.Review_data{
+    width: 80%;
+    font-size: 20px;
+    line-height: 35px;
+    color: #999999;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    margin-bottom: 29px;
+   
+}
+.Reviewer_dp{
+    width: 90px;
+    height: 90px;
+}
+.Reviewer_dp img{
+    width: 100%;
+}

@@ -1,6 +1,12 @@
+"use client"
 import styles from "./seeproj.module.css"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 const SeeProj = () =>{
+    useEffect(()=>{
+        AOS.init();
+    },[])
     return(
         <div className={styles.SeeProj_Grand}>
             <div className={styles.SeeProj_Parent}>
@@ -8,7 +14,7 @@ const SeeProj = () =>{
                     <div className={styles.leftSet_Side}>
                         <img src="constructionShowcase.jpg"></img>
                     </div>
-                    <div className={styles.right_Side}>
+                    <div className={styles.right_Side} data-aos="fade-up" data-aos-delay="200">
                         <div className={styles.Written_Head}>Kinstructly Group</div>
                         <div className={styles.Written_Subhead}>Our capability cover all key sectors in Constructions.
                                                                 Explore our projects page for more information.</div>
