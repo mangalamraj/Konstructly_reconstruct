@@ -1,0 +1,67 @@
+
+.SeeProj_Parent{
+    width: 86%;
+    object-fit: contain;
+    margin: 0 auto;
+    gap: 5em;
+    background-color: rgb(246, 245, 245);
+    border-radius: 10px;
+    margin-top: 2em;
+}
+.SetParent{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    gap: 4em;
+}
+.leftSet_Side{
+    width: 75%;
+}
+.leftSet_Side img{
+    width: 100%;
+    border-radius: 10px ;
+}
+.Written_Head{
+    font-size: 36px;
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+    font-weight: 500;
+}
+.Written_Subhead{
+    width: 80%;
+}
+.Project_Link{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+.Tag_set{
+    display: flex;
+    gap: 0.4em;
+    margin-bottom: 0.3em;
+}
+.tag{
+    background-color: #29013e;
+    color: white;
+    padding-right: 2em;
+    padding-left:2em ;
+    padding-top:0.2em ;
+    padding-bottom:0.2em ;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.horizontalRow{
+    margin-top: 2em;
+    opacity: 0.1;
+    width: 85%;
+    height: 0.8px;
+    background-color: black;
+}
+.superSmall{
+    color: gray;
+    font-size: 10px;
+    width: 90%;
+    margin-top: 1.5em;
+    line-height: 15px;
+}

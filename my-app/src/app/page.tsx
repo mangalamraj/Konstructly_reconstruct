@@ -4,6 +4,10 @@ import { Module } from 'module'
 import Module1 from '@/components/Home/Home'
 import Welcome from '@/components/WelcomeText/Welcome'
 import Services from '@/components/OurServices/Ourservices'
+import Footer from '@/components/Footer/Footer'
+import SeeProj from '@/components/SeeProjects/SeeProj'
+import GalleryAd from '@/components/GallaryAd/GalleryAd'
+import ProjectCounter from '@/components/ProjectCounter/ProjectCounter'
 
 export default function Home() {
   return (
@@ -11,6 +15,10 @@ export default function Home() {
       <Module1/>
       <Welcome/>
       <Services/>
+      <SeeProj/>
+      {/* <GalleryAd/> */}
+      <ProjectCounter/>
+      <Footer/>
    </div>
   )
 }

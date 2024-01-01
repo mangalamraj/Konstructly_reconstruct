@@ -28,7 +28,7 @@
     height: 85vh;
     width: 100vw;
     background: rgb(200,200,200);
-background: linear-gradient(180deg, rgba(200,200,200,0) 57%, rgba(255,193,147,1) 100%);
+background: linear-gradient(180deg, rgba(200,200,200,0) 40%, rgba(255,193,147,1) 100%);
 }
 .Feature_Head{
     font-size: 2.125rem;
