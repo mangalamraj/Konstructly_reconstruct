@@ -9,8 +9,8 @@ const Module1 = () =>{
                     <p className={styles.Feature_Head}>Link Quality and Progress to Payments.</p>
                     <p className={styles.Feature_SubHead}>Provide Commercial with critical Production visibility, streamline production & payment approvals and reduce overspend</p>
                     <div className={styles.button_Set}>
-                    <div className={styles.feature_button}>I'm a Main Contractor/Builder.</div>
-                    <div className={styles.feature_button}>I'm Subcontractor.</div>
+                    <div className={styles.feature_button}>I&apos;m a Main Contractor/Builder.</div>
+                    <div className={styles.feature_button}>I&apos;m Subcontractor.</div>
                     </div>
 
                     
