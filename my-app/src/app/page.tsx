@@ -5,6 +5,7 @@ import Footer from '@/components/Footer/Footer'
 import SeeProj from '@/components/SeeProjects/SeeProj'
 import ProjectCounter from '@/components/ProjectCounter/ProjectCounter'
 import Review from '@/components/Review/Review'
+import MarqueeEffect from '@/components/CollabMarquee/Collab'
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
    <div>
       <Module1/>
       <Welcome/>
+      <MarqueeEffect/>
       <Services/>
       <SeeProj/>
       {/* <GalleryAd/> */}
