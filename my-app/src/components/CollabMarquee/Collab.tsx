@@ -26,8 +26,8 @@ const MarqueeEffect=()=> {
           </MarqueeGroup>
           <MarqueeGroup>
             {row1.map((el,index) => (
-              <ImageGroup>
-                <Image src={el} key={index+row1.length} />
+              <ImageGroup key={index+row1.length}>
+                <Image src={el}  />
               </ImageGroup>
             ))}
           </MarqueeGroup>
