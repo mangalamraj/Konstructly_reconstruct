@@ -18,16 +18,16 @@ const MarqueeEffect=()=> {
       <Wrapper>
         <Marquee>
           <MarqueeGroup>
-            {row1.map((el) => (
-              <ImageGroup>
+            {row1.map((el,index) => (
+              <ImageGroup key={index}>
                 <Image src={el} />
               </ImageGroup>
             ))}
           </MarqueeGroup>
           <MarqueeGroup>
-            {row1.map((el) => (
+            {row1.map((el,index) => (
               <ImageGroup>
-                <Image src={el} />
+                <Image src={el} key={index+row1.length} />
               </ImageGroup>
             ))}
           </MarqueeGroup>
