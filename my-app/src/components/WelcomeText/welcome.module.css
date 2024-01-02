@@ -18,3 +18,18 @@
 .Welcome_Subhead{
     font-size: 16px;
 }
+@media screen and (max-width: 770px){
+    .Welcome_grand{
+        margin-bottom: 1em;
+        padding: 1em;
+    }
+    
+    .Welcome_Parent{
+        width: 100%;
+        text-align: justify;
+    }
+    .Welcome_Subhead{
+        font-size: 15px;
+        
+    }
+}

@@ -62,3 +62,42 @@
 .Reviewer_dp img{
     width: 100%;
 }
+@media screen and (max-width: 768px){
+    .Review_Parent{
+        width: 90%;
+    }
+    .Review_set{
+        width: 95%;
+        justify-content: center;
+        padding-left: 0.5em;
+        flex-direction: column;
+        margin-left: 0px;
+        gap: 2em;
+    }
+    .Review_data{
+        width: 100%;
+    }
+    .set1{
+        flex-direction: column;
+        width: 90%;
+        gap: 1em;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .set2{
+        flex-direction: column;
+        width: 90%;
+        gap: 1em;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .Review_Subhead{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 0.7em;
+        margin-bottom: 2em;
+        color: rgb(118, 118, 118);
+    }
+}

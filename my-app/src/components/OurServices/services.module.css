@@ -30,3 +30,21 @@
     width: 80%;
     margin: 0 auto;
 }
+@media screen and (max-width: 770px){
+    .Services_set{
+        flex-direction: column;
+    }
+    .Services_parent{
+        padding: 0px;
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .SubHead{
+        width: 100%;
+        margin-bottom:2em;
+    }
+    .Services_set{
+        gap: 2em;
+    }
+}

@@ -19,3 +19,8 @@
 .rightSide_Gallery{
     display: flex;
 }
+@media screen and (max-width: 770px){
+    .GalleryAd_Parent{
+        flex-direction: column;
+    }
+}
