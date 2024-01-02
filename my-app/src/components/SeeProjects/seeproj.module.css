@@ -65,3 +65,32 @@
     margin-top: 1.5em;
     line-height: 15px;
 }
+@media screen and (max-width: 770px){
+    .SetParent{
+        flex-direction: column;
+    }
+    .leftSet_Side{
+        width: 100%;
+    }
+    .SeeProj_Parent{
+        gap: 0px;
+    }
+    .SetParent{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        gap: 0em;
+        margin-bottom: 60px;
+    }
+    .Written_Subhead{
+        width: 100%;
+    }
+    .Written_Head{
+        font-size: 34px;
+        margin-top: 0.5em;
+        margin-bottom: 0.4em;
+        font-weight: 500;
+    }
+}

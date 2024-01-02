@@ -80,7 +80,19 @@
       width: calc(50% - 40px);
       height: 30vmin;
       font-size: 14px;
+      padding: 2em 0;
     }
+    .Counter_parent{
+      padding: 0px;
+      text-align: center;
+      margin-bottom: 60px;
+}
+.Counter_Subhead{
+  
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
   }
   @media screen and (max-width: 480px) {
     .wrapper {
