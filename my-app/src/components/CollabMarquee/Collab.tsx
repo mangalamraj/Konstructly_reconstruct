@@ -59,6 +59,10 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  @media (max-width: 768px) {
+    width: 500px;
+    overflow:hidden;
+  }
 `;
 
 const Text = styled.div`
@@ -88,6 +92,10 @@ const Marquee = styled.div`
     hsl(0 0% 0% / 1) 90%,
     hsl(0 0% 0% / 0)
   );
+  @media (max-width: 768px) {
+    width: 800px;
+    
+  }
 `;
 
 const scrollX = keyframes`
